@@ -7,13 +7,31 @@
   height: 100vh;
 }
 
-.main_logo{
-  
+.content_soon{
+  background-image: linear-gradient(90deg,#212529, #3d444a, #212529);
+  padding: 10px;
 }
 .brands{
   font-family: 'Inter', sans-serif;
   font-weight: 900;
+  color: #3d444a;
+  letter-spacing: 5px;
 }
 .join_form{
   gap: 10px;
+  background-color: #3d444a;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.join_btn{
+  background-color: #112752;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.join_input{
+  background-color: #212529;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 5px;
+  color: white;
 }
