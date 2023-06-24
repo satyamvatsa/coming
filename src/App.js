@@ -1,17 +1,19 @@
+import React from 'react';
 import './App.css';
+import { BrowserRouter, Routes ,Route } from 'react-router-dom';
+import Comingsoon from './components/Comingsoon';
+
 
 function App() {
   return (
     <>
-      <section className='header'>
-        <div className='container-fluid'>
-          <div className='row'>
-            <div className='col-12 d-flex justify-content-center bg-dark py-3 text-white main_nav'>
-              hello
-            </div>
-          </div>
-        </div>
-      </section>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Comingsoon/>}>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+      
     </>
   );
 }
