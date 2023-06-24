@@ -1,7 +1,19 @@
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+
 .main_nav{
   height: 100vh;
 }
 
 .main_logo{
   
+}
+.brands{
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+}
+.join_form{
+  gap: 10px;
 }
