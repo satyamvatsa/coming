@@ -34,12 +34,39 @@ const Comingsoon = () => {
                     </div>
                     </div>
                 </div>
+               
                 
-                <div className='row mt-5'>
-                  <div className='col-12 d-flex justify-content-center'>
-                    <h1 className='brands'>
-                        BRANDS
-                    </h1>
+                <div className='row d-flex brand_logos justify-content-center'>
+                <div className='row'>
+                    <div className='col-12 soon_text text-white d-flex justify-content-center'>
+                        <h2 className='brands mt-4'>
+                            BRANDS
+                        </h2>
+                    </div>
+                    </div>
+                  <div className='col-8 d-flex justify-content-center'>
+
+                  <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-inner d-flex">
+                      <div className="carousel-item active" data-bs-interval="1000">
+                        <img src="images/logo/cropped-GMED_logo.png" className="d-block w-100" alt="..." width={100}/>
+                      </div>
+                      <div className="carousel-item" data-bs-interval="2000">
+                        <img src="images/logo/cropped-logo-gR-pldcmulx0rtwxidtuvvftyinxambh4kpr3vcnv4lc0.png" className="d-block w-100" alt="..." width={100}/>
+                      </div>
+                      <div className="carousel-item">
+                        <img src="images/logo/cropped-logo.png" className="d-block w-100" alt="..." width={100}/>
+                      </div>
+                      <div className="carousel-item">
+                        <img src="images/logo/infintypharma.png" className="d-block w-100" alt="..." width={100}/>
+                      </div>
+                    </div>
+                  </div>
+              
+
+
+
+                    
                   </div>
                 </div>
                 <div className='row mt-5'>

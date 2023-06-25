@@ -52,3 +52,10 @@ body{
 .form_btn button{
   margin: auto;
 }
+.brand_logos img{
+  filter: grayscale(100%);
+}
+
+
+/* logo animation */
+
