@@ -46,3 +46,6 @@
 .soon_form{
   overflow: hidden;
 }
+.form_btn button{
+  margin: auto;
+}

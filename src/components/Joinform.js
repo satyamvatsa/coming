@@ -7,11 +7,14 @@ function ContactForm() {
   }
   return (
     <>
-      <div className='row d-flex justify-content-center'>
-        <div className='col-lg-12 col-sm-12 soon_form d-flex justify-content-center'>
-          <form onSubmit={handleSubmit} className='join_form mt-5 p-5 d-flex'>
-            <div className=''>
-              <input
+    <div className='container'>
+      <div className='row '>
+        <form onSubmit={handleSubmit} className=' d-flex justify-content-center'>
+          <div className='join_form mt-5 p-5'>
+
+          
+          <div className='mb-3'>
+            <input
                 id="email"
                 type="email" 
                 name="email"
@@ -23,18 +26,16 @@ function ContactForm() {
                 field="email"
                 errors={state.errors}
               />
-            </div>
-          
-            <div className=''>
-              <button type="submit" disabled={state.submitting} className='join_btn text-white px-5 py-2'>
-                Join Us
-              </button>
-            </div>
-          
-          </form>
-        </div>
-        </div>
-      
+          </div>
+          <div className='form_btn d-flex justify-content-center'>
+            <button type="submit" disabled={state.submitting} className='join_btn text-white px-5 py-2'>
+              Join Us
+            </button>
+          </div>
+          </div>
+        </form>
+      </div>
+    </div>      
     </>  
   );
 }
