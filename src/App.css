@@ -1,8 +1,13 @@
 *{
   font-family: 'Inter', sans-serif;
 }
-
-
+.main_text{
+  text-align: center;
+  font-weight: 600;
+}
+.soon_text{
+  font-weight: 200;
+}
 .main_nav{
   height: 100vh;
 }
@@ -18,7 +23,7 @@
   letter-spacing: 5px;
 }
 .join_form{
-  gap: 10px;
+  gap: 20px;
   background-color: #3d444a;
   border-radius: 10px;
   border: 1px solid grey;
@@ -34,4 +39,10 @@
   border-radius: 5px;
   padding-left: 5px;
   color: white;
+}
+.join_input::placeholder{
+  color: rgb(114, 114, 114);
+}
+.soon_form{
+  overflow: hidden;
 }

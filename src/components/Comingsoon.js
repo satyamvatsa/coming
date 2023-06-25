@@ -19,15 +19,15 @@ const Comingsoon = () => {
                 </div>
                 <div className='container content_soon mt-5'>
                     <div className='row '>
-                    <div className='col-12 main_logo text-white d-flex justify-content-center'>
-                        <h2>
+                    <div className='col-12 text-white d-flex justify-content-center'>
+                        <h2 className='main_text'>
                             Get Ready to Build Your Ultimate Body!
                         </h2>
                         
                     </div>
                     </div>
                     <div className='row'>
-                    <div className='col-12 main_logo text-white d-flex justify-content-center'>
+                    <div className='col-12 soon_text text-white d-flex justify-content-center'>
                         <p>
                             Coming Soon: Your One-Stop Shop.
                         </p>
@@ -36,14 +36,14 @@ const Comingsoon = () => {
                 </div>
                 
                 <div className='row mt-5'>
-                  <div className='col-12 main_logo d-flex justify-content-center'>
+                  <div className='col-12 d-flex justify-content-center'>
                     <h1 className='brands'>
                         BRANDS
                     </h1>
                   </div>
                 </div>
                 <div className='row mt-5'>
-                  <div className='col-12 main_logo text-white d-flex justify-content-center'>
+                  <div className='col-12 text-white d-flex justify-content-center'>
                     <Joinform />
                   </div>
                 </div>
