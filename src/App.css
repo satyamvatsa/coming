@@ -52,3 +52,9 @@ body{
 .form_btn button{
   margin: auto;
 }
+
+.home_main{
+  height: 60px;
+  width: 100%;
+  background-color: aquamarine;
+}
